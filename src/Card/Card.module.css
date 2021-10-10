@@ -1,0 +1,21 @@
+.cardContainer {
+  display: inline-table;
+  margin: 4vw;
+  overflow: hidden;
+  width: 35vw;
+  height: 5vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin-bottom: 1vw;
+  color: aliceblue;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.5);
+
+  font-family: "Roboto", sans-serif;
+}
