@@ -65,3 +65,23 @@
   width: 12vw;
   height: 12vw;
 }
+.maxMin {
+  display: flex;
+  font-size: 0.9vw;
+  margin-right: 1.2vw;
+  align-items: center;
+}
+
+.max,
+.min {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  height: 5vw;
+  margin-bottom: 1vw;
+}
+.max span,
+.min span {
+  margin-bottom: 1vw;
+}
