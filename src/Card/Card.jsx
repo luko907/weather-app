@@ -1,13 +1,14 @@
 import React from "react";
+import Styles from "./Card.module.css";
 
 export default function Card() {
   return (
-    <div>
-      <div>
+    <div className={Styles.cardContainer}>
+      <div className={Styles.card}>
         <div>
           <button>x</button>
         </div>
-        <span>London</span>
+        <span>Londres</span>
         <div>
           <img src="" width="80" height="80" alt="" />
           <div>
@@ -18,11 +19,11 @@ export default function Card() {
         <div>
           <div>
             <span>Min</span>
-            <span>22°</span>
+            <span>20°</span>
           </div>
           <div>
             <span>Max</span>
-            <span>33°</span>
+            <span>34°</span>
           </div>
         </div>
       </div>
