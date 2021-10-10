@@ -19,3 +19,49 @@
 
   font-family: "Roboto", sans-serif;
 }
+
+.cardContainer:hover {
+  transform: scale(1.2);
+}
+.divBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.5vw;
+}
+.btnContent {
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  background: transparent;
+  height: fit-content;
+  border-radius: 15px;
+  font-family: Arial;
+  font-size: 4vw;
+  padding-bottom: 1.5vw;
+  padding-left: 3vw;
+}
+.citie {
+  margin-bottom: 1.5vw;
+  text-align: center;
+  font-size: 2.2vw;
+}
+
+.actual_Weather {
+  display: inline-flex;
+  justify-content: space-around;
+  margin-right: 1vw;
+  margin-left: 0.5vw;
+}
+.weatherInfo {
+  font-size: 1.5vw;
+}
+
+.actualTempWeather {
+  display: flex;
+  flex-direction: column;
+  font-size: 4.5vw;
+}
+.weatherImg {
+  width: 12vw;
+  height: 12vw;
+}
