@@ -7,22 +7,22 @@ export default function Card() {
         <div>
           <button>x</button>
         </div>
-        <span></span>
+        <span>London</span>
         <div>
           <img src="" width="80" height="80" alt="" />
           <div>
-            <span>°</span>
-            <span></span>
+            <span>32°</span>
+            <span>Clouds</span>
           </div>
         </div>
         <div>
           <div>
             <span>Min</span>
-            <span>°</span>
+            <span>22°</span>
           </div>
           <div>
             <span>Max</span>
-            <span>°</span>
+            <span>33°</span>
           </div>
         </div>
       </div>
