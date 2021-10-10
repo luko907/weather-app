@@ -17,17 +17,17 @@ export default function Card() {
             height="80"
             alt=""
           />
-          <div>
+          <div className={Styles.actualTempWeather}>
             <span>32°</span>
-            <span>Clouds</span>
+            <span className={Styles.weatherInfo}>Clouds</span>
           </div>
         </div>
-        <div>
-          <div>
+        <div className={Styles.maxMin}>
+          <div className={Styles.min}>
             <span>Min</span>
             <span>20°</span>
           </div>
-          <div>
+          <div className={Styles.max}>
             <span>Max</span>
             <span>34°</span>
           </div>
@@ -35,33 +35,4 @@ export default function Card() {
       </div>
     </div>
   );
-}
-
-{
-  /* <div className={Styles.cardContainer}>
-<div className={Styles.card}>
-  <div>
-    <button>x</button>
-  </div>
-  <span>Londres</span>
-  <div>
-    <img src="" width="80" height="80" alt="" />
-    <div>
-      <span>32°</span>
-      <span>Clouds</span>
-    </div>
-  </div>
-  <div>
-    <div>
-      <span>Min</span>
-      <span>20°</span>
-    </div>
-    <div>
-      <span>Max</span>
-      <span>34°</span>
-    </div>
-  </div>
-</div>
-</div>
-); */
 }
