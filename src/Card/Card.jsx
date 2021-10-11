@@ -1,5 +1,6 @@
 import React from "react";
 import Styles from "./Card.module.css";
+import Time from "../Timer/Timer";
 export default function Card({
   min,
   max,
@@ -9,6 +10,7 @@ export default function Card({
   id,
   temp,
   weather,
+  timezone,
 }) {
   return (
     <div className={Styles.cardContainer}>
@@ -40,6 +42,9 @@ export default function Card({
           <div className={Styles.max}>
             <span>Max</span>
             <span>{max.toFixed(1)}°</span>
+          </div>
+          <div className={Styles.time}>
+            <Time timezone={timezone} />
           </div>
         </div>
       </div>

@@ -11,6 +11,7 @@ export default function Cards({ cities, onClose }) {
           min={cities.min}
           name={cities.name}
           weather={cities.weather}
+          timezone={cities.timezone}
           img={cities.img}
           onClose={() => onClose(cities.id)}
           key={i}
