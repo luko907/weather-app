@@ -1,35 +1,35 @@
 import React from "react";
 import Styles from "./Card.module.css";
 
-export default function Card() {
+export default function Card(props) {
   return (
     <div className={Styles.cardContainer}>
       <div className={Styles.card}>
         <div className={Styles.divBtn}>
           <button className={Styles.btnContent}>x</button>
         </div>
-        <span className={Styles.citie}>London</span>
+        <span className={Styles.citie}>{props.name}</span>
         <div className={Styles.actual_Weather}>
           <img
             className={Styles.weatherImg}
-            src=""
+            src={props.img}
             width="80"
             height="80"
-            alt=""
+            alt={props.weather}
           />
           <div className={Styles.actualTempWeather}>
-            <span>32°</span>
-            <span className={Styles.weatherInfo}>Clouds</span>
+            <span>{props.temp}°</span>
+            <span className={Styles.weatherInfo}>{props.weather}</span>
           </div>
         </div>
         <div className={Styles.maxMin}>
           <div className={Styles.min}>
             <span>Min</span>
-            <span>20°</span>
+            <span>{props.min}°</span>
           </div>
           <div className={Styles.max}>
             <span>Max</span>
-            <span>34°</span>
+            <span>{props.max}°</span>
           </div>
         </div>
       </div>

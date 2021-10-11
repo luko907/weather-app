@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card/Card.jsx";
+import Cards from "./Cards/Cards.jsx";
 import SearchBar from "./SearchBar/Searchbar.jsx";
 import "./App.css";
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <SearchBar />
       <div className="cardsContainer">
-        <Card />
+        <Cards />
       </div>
     </div>
   );
