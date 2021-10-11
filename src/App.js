@@ -44,11 +44,14 @@ function App() {
         }
       });
   }
+  function onClose(id) {
+    setCities((oldCities) => oldCities.filter((c) => c.id !== id));
+  }
   return (
     <div className="App">
       <SearchBar onSearch={onSearch} />
       <div className="cardsContainer">
-        <Cards cities={cities} />
+        <Cards cities={cities} onClose={onClose} />
       </div>
     </div>
   );

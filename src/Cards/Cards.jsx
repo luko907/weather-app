@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../Card/Card";
 
-export default function Cards({ cities }) {
+export default function Cards({ cities, onClose }) {
   return (
     <div>
       {cities.map((cities, i) => (
@@ -12,6 +12,7 @@ export default function Cards({ cities }) {
           name={cities.name}
           weather={cities.weather}
           img={cities.img}
+          onClose={() => onClose(cities.id)}
           key={i}
           id={cities.id}
         />
