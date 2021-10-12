@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import SearchStyle from "./Searchbar.module.css";
 
 export default function SearchBar({ onSearch }) {
@@ -13,6 +13,16 @@ export default function SearchBar({ onSearch }) {
     onSearch(name);
     setName("");
   }
+
+  useEffect(() => {
+    var input = document.querySelectorAll("input");
+    for (let i = 0; i < input.length; i++) {
+      input[i].setAttribute(
+        "size",
+        input[i].getAttribute("placeholder").length
+      );
+    }
+  });
 
   return (
     <div>

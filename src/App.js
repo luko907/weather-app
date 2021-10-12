@@ -49,7 +49,9 @@ function App() {
   }
   return (
     <div className="App">
-      <SearchBar onSearch={onSearch} />
+      <div>
+        <SearchBar onSearch={onSearch} />
+      </div>
       <div className="cardsContainer">
         <Cards cities={cities} onClose={onClose} />
       </div>
