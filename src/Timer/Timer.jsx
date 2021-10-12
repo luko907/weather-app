@@ -8,20 +8,27 @@ export default class Time extends Component {
   };
 
   timeRefresh() {
-    setInterval(() => {
-      this.setState({
-        date: new Date(new Date().getTime() + this.props.timezone * 1000)
-          .toUTCString()
-          .replace(/ GMT$/, ""),
-      });
+    this.setState({
+      date: new Date(new Date().getTime() + this.props.timezone * 1000)
+        .toUTCString()
+        .replace(/ GMT$/, ""),
+    });
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(() => {
+      this.timeRefresh();
     }, 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
   }
 
   render() {
     return (
       <div>
         <span>{this.state.date}</span>
-        {this.timeRefresh()}
       </div>
     );
   }
