@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Cards from "./Cards/Cards.jsx";
 import SearchBar from "./SearchBar/Searchbar.jsx";
 import "./App.css";
+import Stars from "./Stars/Stars.jsx";
 
 function App() {
   const [cities, setCities] = useState([]);
@@ -47,12 +48,14 @@ function App() {
   function onClose(id) {
     setCities((oldCities) => oldCities.filter((c) => c.id !== id));
   }
+
   return (
     <div className="App">
       <div>
         <SearchBar onSearch={onSearch} />
       </div>
       <div className="cardsContainer">
+        <Stars />
         <Cards cities={cities} onClose={onClose} />
       </div>
     </div>
