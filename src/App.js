@@ -48,6 +48,7 @@ function App() {
   function onClose(id) {
     setCities((oldCities) => oldCities.filter((c) => c.id !== id));
   }
+
   return (
     <div className="App">
       <div>

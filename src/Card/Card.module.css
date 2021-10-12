@@ -1,6 +1,6 @@
 .cardContainer {
   display: inline-table;
-  margin: 4vw;
+  margin: 0vw 4vw 4vw 4vw;
   overflow: hidden;
   width: 35vw;
   height: 5vw;
