@@ -5,10 +5,11 @@ import "./App.css";
 import Stars from "./Stars/Stars.jsx";
 
 function App() {
+  const apiKey = "321c048ec902f7b9096e55acf18e2003";
   const [cities, setCities] = useState([]);
   function onSearch(ciudad) {
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${process.env.REACT_APP_API}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`
     )
       .then((r) => r.json())
       .then((response) => {
