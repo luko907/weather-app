@@ -38,7 +38,7 @@ export default function SearchBar({ onSearch }) {
               value={name}
               className={SearchStyle.inputSearch}
               onChange={(e) => handleChange(e)}
-              placeholder="Agregá país o ciudad . . ."
+              placeholder="Add city or country . . ."
             />
             <button className={SearchStyle.searchBarBtn} type="submit">
               +
