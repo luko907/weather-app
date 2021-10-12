@@ -1,5 +1,5 @@
 import React from "react";
-import "./Star.scss";
+import "./Stars.scss";
 export default function Stars() {
   return (
     <div className="stars">
