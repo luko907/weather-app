@@ -85,13 +85,18 @@
 .min span {
   margin-bottom: 1vw;
 }
-
+.time {
+  margin-left: 8vw;
+  font-size: 1vw;
+}
 @media (max-width: 768px) {
   .card {
     width: 70vw;
     height: 55vw;
   }
-
+  .time {
+    font-size: 2.8vw;
+  }
   .maxMin {
     justify-content: center;
     font-size: 2.8vw;
