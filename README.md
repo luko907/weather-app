@@ -21,6 +21,7 @@ https://openweathermap.org/api
 
 ## Technology stack:
 
+* Javascript
 * API Fetch
 * React/Hooks
 * Sass
