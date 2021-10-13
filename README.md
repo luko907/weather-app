@@ -13,6 +13,11 @@ https://openweathermap.org/api
 ![alt text](<https://github.com/luko907/assets/blob/main/img/Screenshot%202021-10-12%20211821.png>)
 ![alt text](<https://github.com/luko907/assets/blob/main/img/Screenshot%202021-10-12%20211822.png>)
 
+## Desktop View
+
+![alt text](<https://github.com/luko907/assets/blob/main/img/Screenshot%202021-10-12%20211823.png>)
+![alt text](<https://github.com/luko907/assets/blob/main/img/Screenshot%202021-10-12%20211824.png>)
+
 
 ## Technology stack:
 
