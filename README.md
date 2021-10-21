@@ -13,13 +13,6 @@ https://openweathermap.org/api
 ![Screenshot 2021-10-12 211821](https://user-images.githubusercontent.com/48270029/137373175-7cc851e1-efa6-4256-a4f1-bb0dce57603c.png)
 ![Screenshot 2021-10-12 211822](https://user-images.githubusercontent.com/48270029/137373177-fff46632-9d7c-411d-bf4b-3cb3cbe37ad0.png)
 
-## Technology stack:
-
-- API Fetch
-- React/Hooks
-- Sass
-- CSS3(CSS Modules)
-- HTML5
 
 ## Desktop View
 
