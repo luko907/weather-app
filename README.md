@@ -8,18 +8,29 @@ https://openweathermap.org/api
 
 ## Android/iOS
 
-![Screenshot 2021-10-12 211819](https://user-images.githubusercontent.com/48270029/137373166-9aa32667-0034-415a-b4ac-1da4672eb4e9.png)
-![Screenshot 2021-10-12 211820](https://user-images.githubusercontent.com/48270029/137373170-8f72ae50-7391-4599-b05f-f8bbfd4a90a5.png)
-![Screenshot 2021-10-12 211821](https://user-images.githubusercontent.com/48270029/137373175-7cc851e1-efa6-4256-a4f1-bb0dce57603c.png)
-![Screenshot 2021-10-12 211822](https://user-images.githubusercontent.com/48270029/137373177-fff46632-9d7c-411d-bf4b-3cb3cbe37ad0.png)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/48270029/140330786-4d89290e-e3c9-4beb-ad1b-c122b321e89c.png" />
+  <img src="https://user-images.githubusercontent.com/48270029/140330796-af539b29-3610-4f72-bfe6-b1af77495dd6.png" />
+</div>
 
+<br />
+<br />
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/48270029/140330798-e2fdbe2f-b695-4275-bb7f-36d73d77d800.png" />
+  <img src="https://user-images.githubusercontent.com/48270029/140330800-81681919-604f-4bf3-a2b7-92075c889aae.png" />
+</div>
 
 ## Desktop View
 
-![Screenshot 2021-10-12 211823](https://user-images.githubusercontent.com/48270029/137373179-f1579412-bd7c-48e3-afcb-d2dc359cf310.png)
-![Screenshot 2021-10-12 211824](https://user-images.githubusercontent.com/48270029/137373182-bd65ec6a-045c-47b5-ae75-1110709251ca.png)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/48270029/139955322-2247669e-89fa-44fc-998a-c5e83da4aacb.png" />
+  <br />
+  <br />
+  <img src="https://user-images.githubusercontent.com/48270029/139955313-0050f906-4d31-45a1-bc7e-df58089dbfed.png" />
+</div>
 
-## Technology stack:
+### Built with:
 
 - Javascript
 - API Fetch
@@ -28,7 +39,7 @@ https://openweathermap.org/api
 - CSS3(CSS Modules)
 - HTML5
 
-## Technology to be added shortly
+### To be added shortly:
 
 - Axios
 - Redux
